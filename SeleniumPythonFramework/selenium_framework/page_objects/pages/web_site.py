@@ -9,7 +9,6 @@ class WebSite:
     def __init__(self, driverOptions : PODriverOptions ):
         self.__webDriver = PODriver.initialise_web_driver(driverOptions)
     
-    @classmethod
     def index(self):
         return IndexPage()
 
